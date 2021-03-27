@@ -1,0 +1,86 @@
+.questionContainer{
+    position: absolute;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Bebas Neue', cursive;
+}
+
+.content{
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+
+.question{
+    margin: 0;
+    width: 100%;
+    font-size: 35px;
+}
+
+.option{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.answerButton{
+    background: rgba(255, 255, 255, .3);
+    border-radius: 5px;
+    border: none;
+    color: white;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 30px;
+}
+
+.answerButton:focus, .nextButton:focus {
+    outline: none;
+}
+
+.buttonProgress {
+    width: 100%;
+    display: flex;
+    gap: 15px;
+}
+
+.line{
+    border-radius: 6px;
+    border: solid 2px rgba(255, 255, 255, .7);
+    background: transparent;
+    width: 70%;
+}
+
+.line1{
+    border-radius: 6px;
+    background: black;
+    height: 100%;
+}
+
+.nextButton{
+    width: 30%;
+    border-radius: 5px;
+    border: none;
+    background: black;
+    color: white;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 30px;
+}
+
+@media screen and (min-width: 1200px){
+    .content{
+        width: 40%;
+    }
+
+    .option{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 5px;
+    }
+}

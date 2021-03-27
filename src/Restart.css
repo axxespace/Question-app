@@ -1,0 +1,36 @@
+.restart{
+    color: white;
+    position: absolute;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Bebas Neue', cursive;
+}
+
+.restartCont{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+.score{
+    font-size: 40px;
+    margin: 0;
+}
+
+.image{
+    width: 45px;
+    height: 45px;
+    margin-bottom: 7px;
+    border: solid 2px black;
+    border-radius: 5px;
+}
+
+.image:hover{
+    border-color: white;
+}

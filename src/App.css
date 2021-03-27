@@ -1,0 +1,26 @@
+html, body{
+    margin:0;
+    padding:0;
+    height: 100vh;
+    width: 100%;
+    color: #fff;
+    position: relative;
+    background: linear-gradient(-45deg, #EE7752, #E73C7E, #23A6D5, #24D5AB);
+    background-size: 400%;
+    animation: colors 10s ease-in-out infinite;
+    display: flex;
+}
+
+
+
+@keyframes colors {
+    0%{
+        background-position: 0% 50%;
+    }
+    50%{
+        background-position: 100% 50%;
+    }
+    100%{
+        background-position: 0% 50%;
+    }
+}
